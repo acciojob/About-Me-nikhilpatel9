@@ -1,1 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+#main {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sec {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+#name {
+  width: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+
+#profile {
+  width: 50%;
+}
+
+#prof {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#about {
+  width: 50%;
+  padding: 20px;
+}
+
+#img {
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  height: auto;      /* keep aspect ratio */
+  max-width: 100%;
+}
+
+.skill-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.skill-row progress {
+  width: 100%;       /* progress bar on its own line */
+  height: 12px;
+}
